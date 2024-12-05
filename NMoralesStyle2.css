@@ -1,0 +1,69 @@
+body {margin: 0;}
+nav {padding: 0;}
+nav ul {background-color: rgba(40, 40, 40, 0.8); font-family: roboto, Times New Roman, Sans-serif; height: 130px; font-size: 36px; list-style-type: none; text-align: center; padding-right: 10px; padding-left: 10px;}
+body {background-image: url(imgs/background.jpg);}
+#hero {display: inline-block; width: 100%; box-shadow: 5px 5px 5px 1px;}
+h1 {color: white; text-align: center; font-size: 48px; font-family: roboto, Times New Roman, Sans-serif;}
+h2 {color: white; font-family: roboto, Times New Roman, Sans-serif; text-align: center;}
+h3 {color: white; font-family: roboto, Times New Roman, Sans-serif; text-align: center;}
+#form {color: white; font-family: roboto, Times New Roman, Sans-serif; text-align: center; font-size: 18px;}
+h3 {color: white; font-family: roboto, Times New Roman, Sans-serif;}
+ul {color: white; font-family: roboto, Times New Roman, Sans-serif;}
+p {color: white; font-family: roboto, Times New Roman, Sans-serif;}
+section {font-size: 20px;}
+#album img {display: block; width: 50%; height: 50%; margin-left: auto; margin-right: auto;}
+#album p {text-align: center; font-size: 16px; padding-left: 1em; padding-right: 1em;}
+main p {text-align: center; padding-left: 1em; padding-right: 1em;}
+main img {padding-left: 6.75em; padding-right: 6.75em;}
+iframe {width: 100%; height: 350px; border: none;}
+label {color: white; font-size: 24px; font-family: roboto, Times New Roman, Sans-serif;}
+form {text-align: center;}
+#info {text-align: center; font-family: roboto, Times New Roman, Sans-serif;}
+#stats1 {text-align: center; margin-bottom: 0;}
+#stats2 {text-align: center; margin-top: 0;}
+ul {list-style-position: inside; padding-right: 3em; margin: 0;}
+#a img {inset: 0; box-shadow: 5px 5px 5px black; }
+#c ul {list-style-type: none; padding-left: 3em;}
+footer {font-style: italic; text-shadow: 5px 5px 5px black; text-align: center;}
+#toplink a:link {color: white; text-decoration: none;}
+#toplink a:visited {color: white; text-decoration: none;}
+#toplink a:hover {color: grey; text-shadow: 5px 5px 5px black;}
+#footerlink a:link {color: grey; text-decoration: none;}
+#footerlink a:visited {color: grey; text-decoration: none;}
+table {color: white; border: solid; margin-left: auto; margin-right: auto; text-align: center; width: 375px;
+}
+tr {border: solid;}
+th {padding: 3px; border: solid;}
+
+
+@media (min-width: 1336px) {
+
+body {background-image: url(imgs/background.jpg); background-size: cover;}
+nav ul {display: flex; flex-flow: row nowrap; height: 50px; gap: .5em;}
+nav li {margin-top: 2.5px;}
+#album h1 {text-align: left; padding-left: 1em;}
+#album h2 {padding-left: 2em; text-align: left;}
+#album p {padding-left: 1em; font-size: 24px; text-shadow: 5px 5px 5px black;}
+#album img {display: block; width: 10%; height: 10%; box-shadow: 5px 5px 5px;}
+#form {color: white; font-family: roboto, Times New Roman, Sans-serif; font-size: 24px; text-align: left; padding-left: 2em;}
+form {text-align: left; padding-left: 3em;}
+main {display: flex; justify-content: center;}
+main img {padding-left: 1em; padding-right: 1em;}
+main p {color: white; font-family: roboto, Times New Roman, Sans-serif; font-size: 24px;}
+iframe {height: 850px;}
+#info {display: grid; 
+grid-template-areas: "a b c"; 
+grid-template-columns: 1fr 1fr 1fr; 
+grid-template-rows: auto; 
+padding-left: 5em;
+padding-right: 5em;
+gap: 1em;
+text-align: center;
+list-style-position: inside;}
+table {width: 750px;}
+section {font-size: 28px;}
+#a {grid-area: a; border: solid; margin-top: 3em; border-color: white;}
+#b {grid-area: b; border: solid; margin-top: 3em; border-color: white;}
+#c {grid-area: c; border: solid; margin-top: 3em; border-color: white;}
+	
+}
